@@ -7,9 +7,8 @@ class NumberCount extends StatefulWidget {
   State<NumberCount> createState() => _NumberCountState();
 }
 
-int x = 0;
-
 class _NumberCountState extends State<NumberCount> {
+  int x = 0;
   @override
   void initState() {
     x = 0;
